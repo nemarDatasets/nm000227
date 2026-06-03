@@ -1,0 +1,80 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Eva Guttmann-Flury": {
+      "orcid": "0000-0002-8241-1713"
+    },
+    "Xinjun Sheng": {},
+    "Xiangyang Zhu": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41597-025-04861-9",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000227",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000227",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Eye-BCI Motor Execution dataset from Guttmann-Flury et al 2025",
+  "license": "CC0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "5.1 GB (64 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "A motor imagery EEG dataset comprising 31 healthy participants performing left and right hand grasping imagery tasks across multiple sessions. The dataset includes 2,520 trials recorded at 1000 Hz using a 64-channel Neuroscan system with standardized electrode montage, designed for brain-computer interface research and motor control applications.",
+  "methods_description": "EEG data were acquired using a Neuroscan Quik-Cap 65-channel system with SynAmps2 amplifier at 1000 Hz sampling rate. Participants performed motor imagery tasks with visual rectangle cues (2 s duration) followed by 4 s imagery periods. The montage used the standard 1005 electrode placement with right mastoid reference and forehead ground. Online high-pass filtering was applied with 10 s time constant. Data were recorded in BDF format across 3 sessions per subject with 40 trials per session.",
+  "keywords": [
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "hand grasping"
+    },
+    {
+      "term": "motor execution"
+    }
+  ],
+  "source_hash": "903ef25590673cc2f9a978741e598096ae8941d156c53343878a7f9600eb3785"
+}
