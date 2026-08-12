@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Eye-BCI Motor Execution dataset from Guttmann-Flury et al 2025",
+  "description": "A motor imagery EEG dataset comprising 31 healthy participants performing left and right hand grasping imagery tasks across three sessions. The dataset includes 2,520 trials recorded at 1000 Hz using a 64-channel Neuroscan system with standardized 10-05 electrode montage, designed for brain-computer interface research and motor control applications.",
+  "methods_description": "EEG data were acquired using a Neuroscan Quik-Cap 65-channel system with SynAmps2 amplifier at 1000 Hz sampling rate. Participants performed motor imagery tasks with visual rectangle cues (2 s duration) followed by 4 s imagery periods. Sixty-four EEG channels were recorded with reference to right mastoid (M1) and ground at forehead using Ag/AgCl sensors. Online high-pass filtering (10 s time constant) was applied. Data were collected in 63 sessions (40 trials per session) across 31 subjects.",
+  "license": "CC0",
+  "dataset_type": "derivative",
   "authors": {
     "Eva Guttmann-Flury": {
       "orcid": "0000-0002-8241-1713"
@@ -8,6 +13,26 @@
     "Xinjun Sheng": {},
     "Xiangyang Zhu": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "hand grasping"
+    },
+    {
+      "term": "healthy volunteers"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1038/s41597-025-04861-9",
@@ -20,11 +45,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000227",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
       "relation_type": "References"
@@ -33,48 +53,33 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000227",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "title": "Eye-BCI Motor Execution dataset from Guttmann-Flury et al 2025",
-  "license": "CC0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "5.1 GB (64 files)"
+    "32.5 GB (379 files)"
   ],
   "formats": [
+    ".avi",
     ".bdf",
+    ".csv",
     ".json",
     ".md",
     ".tsv",
+    ".txt",
+    ".xlsx",
+    ".xml",
     ".yaml",
     ".yml"
   ],
-  "description": "A motor imagery EEG dataset comprising 31 healthy participants performing left and right hand grasping imagery tasks across multiple sessions. The dataset includes 2,520 trials recorded at 1000 Hz using a 64-channel Neuroscan system with standardized electrode montage, designed for brain-computer interface research and motor control applications.",
-  "methods_description": "EEG data were acquired using a Neuroscan Quik-Cap 65-channel system with SynAmps2 amplifier at 1000 Hz sampling rate. Participants performed motor imagery tasks with visual rectangle cues (2 s duration) followed by 4 s imagery periods. The montage used the standard 1005 electrode placement with right mastoid reference and forehead ground. Online high-pass filtering was applied with 10 s time constant. Data were recorded in BDF format across 3 sessions per subject with 40 trials per session.",
-  "keywords": [
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "brain-computer interfaces"
-    },
-    {
-      "term": "motor control"
-    },
-    {
-      "term": "hand grasping"
-    },
-    {
-      "term": "motor execution"
-    }
-  ],
-  "source_hash": "903ef25590673cc2f9a978741e598096ae8941d156c53343878a7f9600eb3785"
+  "source_hash": "181a7977af651e2a1f26220ec4354cc01edb760cd0f29ee18a00257e9f0dc10b"
 }
