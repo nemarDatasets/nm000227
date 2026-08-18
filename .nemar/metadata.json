@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Eye-BCI Motor Execution dataset from Guttmann-Flury et al 2025",
-  "description": "A motor imagery EEG dataset comprising 31 healthy participants performing left and right hand grasping imagery tasks across three sessions. The dataset includes 2,520 trials recorded at 1000 Hz using a 64-channel Neuroscan system with standardized 10-05 electrode montage, designed for brain-computer interface research and motor control applications.",
-  "methods_description": "EEG data were acquired using a Neuroscan Quik-Cap 65-channel system with SynAmps2 amplifier at 1000 Hz sampling rate. Participants performed motor imagery tasks with visual rectangle cues (2 s duration) followed by 4 s imagery periods. Sixty-four EEG channels were recorded with reference to right mastoid (M1) and ground at forehead using Ag/AgCl sensors. Online high-pass filtering (10 s time constant) was applied. Data were collected in 63 sessions (40 trials per session) across 31 subjects.",
+  "description": "A motor imagery EEG dataset comprising 31 healthy participants performing left and right hand grasping imagery tasks across three sessions. The dataset includes 2,520 trials recorded at 1000 Hz using a 64-channel Neuroscan system with standardized electrode montage, designed for brain-computer interface research and motor control applications.",
+  "methods_description": "EEG data were acquired using a Neuroscan Quik-Cap 65-channel system with SynAmps2 amplifier at 1000 Hz sampling rate. Sixty-four EEG channels were referenced to the right mastoid with forehead ground. Ag/AgCl sensors were used with standard 1005 montage. Online high-pass filtering (10 s time constant) was applied. Participants performed motor imagery of left and right hand grasping in response to visual rectangle cues, with 40 trials per session across up to 3 sessions.",
   "license": "CC0",
   "dataset_type": "derivative",
   "authors": {
@@ -27,7 +27,7 @@
       "term": "motor control"
     },
     {
-      "term": "hand grasping"
+      "term": "hand imagery"
     },
     {
       "term": "healthy volunteers"
@@ -81,5 +81,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "181a7977af651e2a1f26220ec4354cc01edb760cd0f29ee18a00257e9f0dc10b"
+  "source_hash": "e58f1bbf7d6c9844d280cc41cc6570d30913ec1458ea061dff4be34edaecc018"
 }
